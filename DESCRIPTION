@@ -3,7 +3,7 @@ Type: Package
 Title: Methods and data for dealing with Cryptocurrencies
 Version: 0.1.0
 Author: Guilherme Duarte
-Maintainer: Guilherme Duarte <gjardimduarte at gmail.com>
+Maintainer: Guilherme Duarte <gjardimduarte@gmail.com>
 Description: This packages helps users deal with data from cryptocoins, such as
     Bitcoin (BTC) or Ethereum (ETH). It provides exchange rate data and methods
     for technical analysis. It relies on packages 'tidyquant' and POLONIEX API.
