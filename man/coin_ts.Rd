@@ -16,4 +16,3 @@ Fetch time series data of two cryptocurrency exchange rates.
 \examples{
 btc_data <- coin_ts(from="BTC", to="USDT", start="2001-01-01", end="2017-02-18")
 }
-

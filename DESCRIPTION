@@ -17,4 +17,8 @@ Imports:
     jsonlite
 Depends:
     R (>= 3.3.2)
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
