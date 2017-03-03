@@ -2,3 +2,7 @@
 
 export("%p%")
 export(coin_ts)
+import(forcats)
+import(jsonlite)
+import(tidyquant)
+import(tidyverse)
