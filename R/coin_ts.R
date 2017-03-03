@@ -8,6 +8,7 @@
 #' @return a tibble with data of HLOCV of the referred cryptocoin
 #' @examples
 #' btc_data <- coin_ts(from="BTC", to="USDT", start="2001-01-01", end="2017-02-18")
+#' @export
 
 coin_ts <- function(from="BTC", to="USDT", start="2001-01-01",end="9999-01-01", period=86400) {
   end <- as.numeric(as.POSIXct(ymd(end)))
