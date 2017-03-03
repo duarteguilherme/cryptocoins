@@ -1,5 +1,10 @@
 #' Fetch time series data of two cryptocurrency exchange rates.
 #'
+#' @import tidyverse
+#' @import lubridate
+#' @import forcats
+#' @import tidyquant
+#' @import jsonlite
 #' @param from
 #' @param to
 #' @param start
@@ -8,10 +13,6 @@
 #' @return a tibble with data of HLOCV of the referred cryptocoin
 #' @examples
 #' btc_data <- coin_ts(from="BTC", to="USDT", start="2001-01-01", end="2017-02-18")
-#' @import tidyverse
-#' @import forcats
-#' @import tidyquant
-#' @import jsonlite
 #' @export
 
 coin_ts <- function(from="BTC", to="USDT", start="2001-01-01",end="9999-01-01", period=86400) {
